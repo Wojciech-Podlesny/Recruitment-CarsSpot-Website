@@ -1,0 +1,8 @@
+:root {
+    --primary-color: rgba(1, 71, 255, 1);
+    --text-logo-color: rgba(0, 0, 0, 1);
+    --grey-light-color: rgba(247, 247, 247, 1);
+    --grey-color: rgba(241, 241, 241, 1);
+    --dark-color: rgba(40, 40, 40, 1);
+    --white-color: rgba(255, 255, 255, 1);
+}

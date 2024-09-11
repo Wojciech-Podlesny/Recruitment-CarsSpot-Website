@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Strona Cars Spot - Sprzedaż samochodów z Europy"
+    />
+    <meta name="keywords" content="samochody, sprzedaż, Europa" />
+    <meta name="author" content="Wojciech Podleśny" />
+    <title>CarsSpot</title>
+    <link rel="icon" href="./src/img/icons/favicon.png" type="image/x-icon" />
+    <meta name="robots" content="index, follow" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/f4ba0b67ba.js"
+      crossorigin="anonymous"
+    ></script>
+ <link rel="stylesheet" href="./src/css/style.css">
+
+  <body>
+    <header class="bg-none lg:bg-hero lg:bg-no-repeat lg:bg-center lg:bg-cover w-full h-[1110px]">
+      <nav class="container flex justify-between items-center py-4 px-6">
+        <div class="flex items-center lg:px-0">
+          <img
+            src="./src/img/icons/image.svg"
+            class="text-primary px-2 h-8"
+            alt="Logo"
+          />
+          <span class="text-primary block text-3xl font-bold">Cars</span>
+          <span class="text-textLogo text-3xl font-bold">Spot</span>
+        </div>
+        <ul class="hidden lg:flex space-x-6">
+          <li class="hover:underline underline-offset-4 cursor-pointer">
+            <a
+              href="#"
+              class="font-roboto font-normal text-dark font-base leading-6 transition-all duration-200 ease-in-out"
+              >Galeria zdjęć</a
+            >
+          </li>
+          <li class="hover:underline underline-offset-4 cursor-pointer">
+            <a
+              href="#"
+              class="text-dark font-roboto font-normal font-base leading-6 transition-all duration-200 ease-in-out"
+              >FAQ</a
+            >
+          </li>
+        </ul>
+        <button
+          class="menu-button text-dark lg:hidden px-3 md:px-0 text-lg cursor-pointer"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <button
+          class="bg-primary hidden lg:block text-greyLight px-6 py-3 font-roboto font-semibold leading-22.5 text-sm rounded-lg hover:bg-black transition-all duration-200 ease-in-out cursor-pointer"
+        >
+          Zadzwoń do nas
+        </button>
+      </nav>
+
+      <div
+        class="mobile-menu fixed top-0 left-0 w-full h-full bg-grey transform -translate-x-full transition-transform lg:hidden"
+      >
+        <div class="flex justify-end p-6 text-lg">
+          <i class="close-button fa-solid fa-xmark"></i>
+        </div>
+        <ul class="flex flex-col justify-center items-center space-y-4 p-6">
+          <li class="hover:underline underline-offset-4">
+            <a
+              href="#"
+              class="text-dark font-roboto font-normal text-lg leading-6 transition-all duration-200 ease-in-out cursor-pointer"
+              >Galeria zdjęć</a
+            >
+          </li>
+          <li class="hover:underline underline-offset-4">
+            <a
+              href="#"
+              class="text-dark font-roboto font-normal text-lg leading-6 transition-all duration-200 ease-in-out cursor-pointer"
+              >FAQ</a
+            >
+          </li>
+          <li>
+            <button
+              class="bg-primary text-greyLight px-6 py-4 text-base rounded-lg leading-22.5 hover:bg-black transition-all duration-200 ease-in-out cursor-pointer"
+            >
+              Zadzwoń do nas
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div
+      class="container pt-24 flex flex-col text-center lg:text-left gap-12 lg:items-start px-8 my-8 py-8"
+    >
+      <h1
+        class="text-4xl md:text-5xl font-bebas font-normal leading-83.92 tracking-normal"
+      >
+        SPRZEDAJEMY SAMOCHODY <br class="tracking-normal" />Z EUROPY
+      </h1>
+      <h2
+        class="font-condensed font-normal leading-6 mt-6 text-base md:text-3xl tracking-normal"
+      >
+        Kup komfortowy pojazd, aby każda podróż <br />była dla Ciebie wyjątkowym
+        przeżyciem.
+      </h2>
+      <div
+        class="mt-8 flex flex-col space-y-4 lg:flex-row lg:space-x-4 lg:space-y-0 justify-center items-center lg:items-start lg:justify-start"
+      >
+        <button
+          class="w-full h-full lg:w-auto bg-primary font-roboto font-semibold text-sm text-center leading-22.5 text-white px-6 py-4 rounded-lg hover:bg-black transition-all duration-200 ease-in-out cursor-pointer"
+        >
+          Zobacz zdjęcia
+        </button>
+        <button
+          class="w-full h-full lg:w-auto border border-primary font-roboto font-semibold text-sm text-primary text-center leading-22.5 px-6 py-4 rounded-lg hover:text-greyLight hover:bg-black transition-all duration-200 ease-in-out cursor-pointer"
+        >
+          Zadzwoń do nas
+        </button>
+      </div>
+    </div>
+    
+    
+      <div class=" bg-heroMobile bg-contain lg:hidden bg-no-repeat bg-center w-full h-[450px] md:h-[850px]  mt-16"></div>  
+    </header>
+    
+    <main class="lg:px-0 mt-40  md:mt-0">
+      <section class="lg:pl-16 lg:my-6 h-auto px-4 md:px-0 pb-4 lg:pb-0 pt-24 md:pt-96 lg:pt-64">
+        <div class="text-center lg:text-left lg:m-0 m-4">
+          <h3 class="text-primary font-normal font-condensed leading-32.25 text-lg">
+            Prezentacja firmy
+          </h3>
+          <h2 class="font-bebas font-normal text-4xl leading-48">
+            ZOBACZ NASZA GALERIĘ ZDJĘĆ
+          </h2>
+          <div
+            class="flex gap-12 flex-row justify-center lg:justify-start items-center py-4"
+          >
+            <a
+              href="#"
+              class="font-roboto font-semibold text-primary text-sm leading-22.5 border-b-2 border-primary cursor-pointer"
+              >Samochody osobowe</a
+            >
+            <a
+              href="#"
+              class="font-roboto font-normal text-textLogo text-sm leading-22.5  cursor-pointer"
+              >Samochody dostawcze</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="h-auto md:mx-20 lg:mx-20 lg:px-0 lg:py-20 mt-32 lg:pl-16 pb-6 md:pb-24 lg:pb-0">
+        <div class="flex overflow-hidden flex-col gap-8 md:gap-16 justify-between items-center lg:flex-row">
+          <img
+            src="./src/img/images/CarsRomeo.png"
+            alt="Car 1"
+            class="w-full h-auto md:w-[600px] md:h-[446px] object-cover p-4 md:p-0"
+          />
+          <img
+            src="./src/img/images/CarsMasserati.png"
+            alt="Car 2"
+            class="w-full h-auto md:w-[600px] md:h-[446px] object-cover p-4 md:p-0"
+          />
+          <img
+            src="./src/img/images/CarsAudi.png"
+            alt="Car 3"
+            class="w-full h-auto md:w-[600px] md:h-[446px] object-cover p-4 md:p-0"
+          />
+        </div>
+        <div class="hidden lg:flex justify-center items-center mt-16 space-x-6 pt-16 py-28">
+          <i class="fas fa-circle text-primary w-2 h-2 cursor-pointer"></i>
+          <i class="fas fa-circle text-grey w-2 h-2 cursor-pointer"></i>
+          <i class="fas fa-circle text-grey w-2 h-2 cursor-pointer"></i>
+          <i class="fas fa-circle text-grey w-2 h-2 cursor-pointer"></i>
+          <i class="fas fa-circle text-grey w-2 h-2 cursor-pointer"></i>
+        </div>
+      </section>
+
+      <section class="bg-black p-16">
+        <div
+          class="flex flex-col lg:flex-row justify-center items-center gap-16 mx-auto max-w-full"
+        >
+          <div class="py-6 text-center lg:text-left space-y-4">
+            <h2 class="font-normal font-bebas text-white text-3xl leading-37.5">
+              Id nostrud enim esse consectetur in eu mollit fugiat aute. Velit
+              nulla
+              <br />
+              commodo.
+            </h2>
+            <h3 class="text-white font-normal font-condensed text-xs leading-21">
+              Mauris varius ipsum mauris, rutrum lobortis magna efficitur a.
+              Donec egestas, nisl vehicula feugiat <br />
+              ornare, diam turpis efficitur mi, ac venenatis eros ipsum ac arcu.
+              Vestibulum et [...]
+            </h3>
+            <button
+              class="inline-block border-b-1.5 border-white space-x-1 pb-1.5"
+            >
+              <span class="font-condensed font-normal text-white text-xs leading-21"
+                >Rozwiń</span
+              >
+              <i class="fa-solid fa-arrow-down text-white"></i>
+            </button>
+          </div>
+          <div class="py-6 text-center lg:text-left space-y-4">
+            <h2 class="font-normal font-bebas text-white text-3xl leading-37.5">
+              Id nostrud enim esse consectetur in eu mollit fugiat aute. Velit
+              nulla
+              <br />
+              commodo.
+            </h2>
+            <h3 class="text-white font-normal font-condensed text-xs leading-21">
+              Mauris varius ipsum mauris, rutrum lobortis magna efficitur a.
+              Donec egestas, nisl vehicula feugiat <br />
+              ornare, diam turpis efficitur mi, ac venenatis eros ipsum ac arcu.
+              Vestibulum et [...]
+            </h3>
+            <button
+              class="inline-block border-b-1.5 border-white space-x-1 pb-1.5"
+            >
+              <span class="font-condensed font-normal text-white text-xs leading-21"
+                >Rozwiń</span
+              >
+              <i class="fa-solid fa-arrow-down text-white"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-black border-t border-white">
+      <div
+        class="flex flex-col lg:flex-row justify-between items-center gap-1 py-6 lg:gap-12 lg:px-32 w-full"
+      >
+        <p class="font-bold font-condensed  text-base leading-6 text-white">Cars Spot</p>
+        <a
+          href="#"
+          class="text-white font-normal font-condensed text-base leading-6 underline underline-offset-4  cursor-pointer"
+          >Polityka Prywatności</a
+        >
+      </div>
+    </footer>
+    <script src="./src/js/main.js"></script>
+  </body>
+</html>
