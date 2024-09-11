@@ -66,7 +66,7 @@ This repository contains the code for the CarsSpot website, developed as part of
 
 You can either run the project locally on your machine or simply visit the live version of the app:
 
-https://carspot.vercel.app/
+https://carspot-website.vercel.app/
 
 ### Local Installation (Optional)
 
