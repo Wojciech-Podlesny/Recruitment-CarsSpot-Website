@@ -12,7 +12,7 @@ This repository contains the code for the CarsSpot website, developed as part of
 
 - JavaScript: Implemented dynamic interactions and functionality using vanilla JavaScript.
 
-- CSS Variables: Custom properties for consistent theming are defined in colorado.css.
+- CSS Variables: Custom properties defined in `colors.css` provide consistent theming.
 
 ## Technologies
 
