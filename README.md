@@ -12,11 +12,7 @@ This repository contains the code for the CarsSpot website, developed as part of
 
 - JavaScript: Implemented dynamic interactions and functionality using vanilla JavaScript.
 
-<<<<<<< HEAD
 - CSS Variables: Custom properties defined in `colors.css` provide consistent theming.
-=======
-- CSS Variables: Custom properties for consistent theming are defined in colors.css.
->>>>>>> 99e528da3c9d48a508d6adb5483e8c8374e502ce
 
 ## Technologies
 
